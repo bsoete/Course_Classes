@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Vehicles_Lib
 {
-    class Car
+    public class Car
     {
         #region Globale variabelen
-        enum ColorCars {Groen, Rood,Geel,Zwart} // Definiëren Enumeratie
+        public enum ColorCars {Groen, Rood,Geel,Zwart} // Definiëren Enumeratie
 
-        ColorCars colorCar; // Aanmaken globale variabele van type ColorCars
-        int actualSpeed;   // Aanmaken globale variabele van het type int
+        public ColorCars colorCar; // Aanmaken globale variabele van type ColorCars
+        public int actualSpeed;   // Aanmaken globale variabele van het type int
 
         #endregion
 
         #region Methoden
         // Aanmaken van klassemethode KmNaarMijl (ontvangt 1 Parameter)
 
-        double KmNaarMijl(int speed)
+        public double KmNaarMijl(int speed)
         {
             return speed / 1.609344;
         }

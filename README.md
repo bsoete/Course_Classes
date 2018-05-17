@@ -1,8 +1,8 @@
 # Course_Classes
 Klassenvoorbeeld Cursusmateriaal
 
-#Cursusdeel Klassen en Objecten
-##Overzicht
+# Cursusdeel Klassen en Objecten
+## Overzicht
 * Aanmaak KlassenBibliotheek
 * Toevoegen Klasse
   * Toevoegen fields

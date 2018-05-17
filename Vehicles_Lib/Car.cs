@@ -23,6 +23,17 @@ namespace Vehicles_Lib
             colorCar = ColorCars.Groen; 
         }
 
+        public Car(int actSpeed)
+        {
+            actualSpeed = actSpeed;
+        }
+
+        public Car(ColorCars colorCar,int actualSpeed)
+        {
+            this.colorCar = colorCar;
+            this.actualSpeed = actualSpeed;
+        }
+
         #endregion
 
         #region Methoden

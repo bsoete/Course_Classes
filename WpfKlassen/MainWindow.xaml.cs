@@ -24,5 +24,26 @@ namespace WpfKlassen
         {
             InitializeComponent();
         }
+
+        #region Globale Variabelen
+
+
+        #endregion
+
+        #region Methoden
+
+
+
+        #endregion
+
+        #region EventHandlers
+
+
+        private void btnObjecten_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        #endregion
     }
 }

@@ -42,7 +42,13 @@ namespace WpfKlassen
 
         private void btnObjecten_Click(object sender, RoutedEventArgs e)
         {
+            Car auto; // Car-variabele declareren
+            auto = new Car();  // Car-variabele initialiseren => auto wordt een object van het type Car
 
+            auto.actualSpeed = 120;
+            auto.colorCar = Car.ColorCars.Rood;
+            double snelheidInMijl = auto.KmNaarMijl(auto.actualSpeed);
+            MessageBox.Show($"Deze auto rijdt {auto.actualSpeed} km/uur en heeft als kleur {auto.colorCar}. \nIn de USA is deze snelheid {snelheidInMijl} Mijl/h","AutoGegevens");
         }
 
         #endregion

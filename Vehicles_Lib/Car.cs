@@ -16,6 +16,15 @@ namespace Vehicles_Lib
 
         #endregion
 
+        #region Constructor(s)
+        public Car() // Standaard Parameterloze Constructor
+        {
+            actualSpeed = 0;
+            colorCar = ColorCars.Groen; 
+        }
+
+        #endregion
+
         #region Methoden
         // Aanmaken van klassemethode KmNaarMijl (ontvangt 1 Parameter)
 
